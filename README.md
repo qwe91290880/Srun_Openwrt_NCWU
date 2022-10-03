@@ -92,7 +92,7 @@ ps | grep srun
 简单封装了一键卸载脚本。log 留下没有删除，如有需要请自行删除。
 
 ```bash
-wget https://raw.githubusercontent.com/CHxCOOH/Srun_Openwrt/main/uninstall.sh
+wget https://raw.githubusercontent.com/qwe91290880/Srun_Openwrt_NCWU/main/install.sh
 bash ./uninstall.sh
 ```
 
