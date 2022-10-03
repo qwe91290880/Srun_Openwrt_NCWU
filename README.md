@@ -50,7 +50,7 @@ ash ./install.sh
 ```
 
 ```
-输入账号（学号）：2019xxxxxxxx
+输入账号（手机号）：username
 输入密码：passwd
 正在生成 UCI 配置文件 (/etc/config/srun)...
 正在复制登录脚本 (/usr/bin/srun.sh)...
