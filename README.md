@@ -93,7 +93,7 @@ ps | grep srun
 
 ```bash
 wget https://raw.githubusercontent.com/qwe91290880/Srun_Openwrt_NCWU/main/uninstall.sh
-bash ./uninstall.sh
+ash ./uninstall.sh
 ```
 
 # 实现原理 & 补充
