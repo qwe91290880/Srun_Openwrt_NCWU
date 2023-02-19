@@ -25,7 +25,7 @@ cat >$prog << "EOF"
 signin() {
     Stu_No=$1
     Stu_Passwd=$2
-    URL="http://192.168.0.170/cgi-bin/srun_portal"
+    URL="http://192.168.0.170/srun_portal_pc?ac_id=2&theme=basic"
     Encrypted_No="{SRUN3}\r\n"
     Encrypted_Passwd=""
 
