@@ -25,7 +25,7 @@ cat >$prog << "EOF"
 signin() {
     Stu_No=$1
     Stu_Passwd=$2
-    URL="http://192.168.0.170/srun_portal_pc?ac_id=2&theme=basic"
+    URL="http://192.168.0.170/"
     Encrypted_No="{SRUN3}\r\n"
     Encrypted_Passwd=""
 
@@ -62,7 +62,7 @@ signin() {
 
     #echo `urlencode $Encrypted_No`
     #echo `urlencode $Encrypted_Passwd`
-    sigin_result=$(wget -qO- --post-data=$(printf "username=";urlencode $Encrypted_No;printf "&password=";urlencode $Encrypted_Passwd;printf "&ac_id=1&action=login&type=3&n=117&mbytes=0&minutes=0&drop=0&pop=1&mac=02:00:00:00:00:00") $URL
+    sigin_result=$(wget -qO- --post-data=$(printf "username=";urlencode $Encrypted_No;printf "&password=";urlencode $Encrypted_Passwd;printf "&ac_id=2&action=login&type=3&n=117&mbytes=0&minutes=0&drop=0&pop=1&mac=02:00:00:00:00:00") $URL
 )
     echo $sigin_result
     if [[ $sigin_result == login_ok* ]]
