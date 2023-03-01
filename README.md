@@ -43,8 +43,9 @@ Openwrt可用的深澜校园网客户端，可作为服务自启动，支持自�
 wget https://raw.githubusercontent.com/qwe91290880/Srun_Openwrt_NCWU/main/install.sh
 ```
 
-```bash
 //如果上面这个链接产生网络问题，那么可以尝试CDN:
+
+```bash
 wget https://cdn.jsdelivr.net/gh/qwe91290880/Srun_Openwrt_NCWU@main/install.sh
 ```
 
