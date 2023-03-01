@@ -40,7 +40,12 @@ Openwrt可用的深澜校园网客户端，可作为服务自启动，支持自�
 1. 下载安装脚本。如果无法连接 GitHub，请使用其他方式下载后，再用 SFTP 或 Web 文件管理上传脚本。
 
 ```bash
-wget https://raw.githubusercontent.com/qwe91290880/Srun_Openwrt_NCWU/main/installA.sh
+wget https://raw.githubusercontent.com/qwe91290880/Srun_Openwrt_NCWU/main/install.sh
+```
+
+```bash
+//如果上面这个链接产生网络问题，那么可以尝试CDN:
+wget https://cdn.jsdelivr.net/gh/qwe91290880/Srun_Openwrt_NCWU@main/install.sh
 ```
 
 2. 运行脚本，按提示输入账号密码。
