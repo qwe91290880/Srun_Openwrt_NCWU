@@ -25,7 +25,7 @@ cat >$prog << "EOF"
 signin() {
     Stu_No=$1
     Stu_Passwd=$2
-    URL="http://192.168.0.170/"
+    URL="192.168.0.170"
     Encrypted_No="{SRUN3}\r\n"
     Encrypted_Passwd=""
 
